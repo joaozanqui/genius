@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Genius</title>
+  <link rel="stylesheet" href="styles.css">
+  <!-- Google Fonts-->
+  <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/bd8b14d146.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <h1>Pressione <button class="play-btn">JOGAR</button></h1>
+
+
+  <div class="row">
+    <div>
+      <button id="green" class="btn maozinha"></button>
+      <button id="red" class="btn maozinha"></button>
+    </div>
+    <div>
+      <button id="yellow" class="btn maozinha"></button>
+      <button id="blue" class="btn maozinha"></button>
+    </div>
+  </div>
+
+  <button id="restart" class="restart-off">RECOMEÇAR</button>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="game.js"></script>
+
+  <div id="div-email">
+    <h2>João Pedro de Freitas Zanqui</h2>
+    <h3 id="email"><i class="fa-solid fa-envelope"></i> JPZANQUI@HOTMAIL.COM <button onclick="copyPaste()"
+        id="btn-copy">Copiar</button>
+    </h3>
+  </div>
+
+</body>
+
+</html>
